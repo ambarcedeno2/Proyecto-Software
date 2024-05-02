@@ -1,44 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <!-- Define el tipo de documento y el idioma principal como español -->
   <meta charset="UTF-8">
+  <!-- Configura la vista en dispositivos móviles -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Título de la página -->
   <title>Registro - Gestión de Laboratorios</title>
+  <!-- Enlace a la hoja de estilos externa -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Encabezado principal -->
   <h1 class="titulo">Gestión de Laboratorios</h1>
+  <!-- Contenedor principal -->
   <div class="container">
+    <!-- Título del formulario de registro -->
     <h2>REGISTRO</h2>
+    <!-- Formulario de registro -->
     <form id="registerForm">
+      <!-- Campo para el nombre -->
       <div class="form-group">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required>
       </div>
+      <!-- Campo para el apellido -->
       <div class="form-group">
         <label for="apellido">Apellido:</label>
         <input type="text" id="apellido" name="apellido" required>
       </div>
+      <!-- Campo para el correo electrónico -->
       <div class="form-group">
         <label for="email">Correo Electrónico:</label>
         <input type="email" id="email" name="email" required>
       </div>
+      <!-- Campo para el nombre de usuario -->
       <div class="form-group">
         <label for="usuario">Usuario:</label>
         <input type="text" id="usuario" name="usuario" required>
       </div>
+      <!-- Campo para la contraseña -->
       <div class="form-group">
         <label for="password">Contraseña:</label>
         <input type="password" id="password" name="password" required>
       </div>
+      <!-- Campo para confirmar la contraseña -->
       <div class="form-group">
         <label for="confirmPassword">Confirmar Contraseña:</label>
         <input type="password" id="confirmPassword" name="confirmPassword" required>
       </div>
+      <!-- Botón de envío del formulario -->
       <button type="submit">Registrarse</button>
     </form>
+    <!-- Enlace para iniciar sesión si ya se tiene una cuenta -->
     <p>¿Ya tienes una cuenta? <a href="inicio-sesion.html">Inicia sesión aquí</a></p>
   </div>
+  <!-- Enlace al archivo de script JavaScript externo -->
   <script src="script.js"></script>
 </body>
 </html>
