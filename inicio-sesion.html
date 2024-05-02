@@ -9,21 +9,28 @@
 <body>
   <div class="container">
     <h2>Iniciar Sesión</h2>
+    <!-- Formulario de inicio de sesión -->
     <form id="loginForm" action="inicio-sesion.php" method="POST">
+      <!-- Campo para el correo electrónico o usuario -->
       <div class="form-group">
         <label for="emailUsuario">Correo Electrónico / Usuario:</label>
         <input type="text" id="emailUsuario" name="emailUsuario" required>
       </div>
+      <!-- Campo para la contraseña -->
       <div class="form-group">
         <label for="password">Contraseña:</label>
         <input type="password" id="password" name="password" required>
       </div>
+      <!-- Botón para enviar el formulario -->
       <button type="submit">Iniciar Sesión</button>
     </form>
+    <!-- Enlace para recuperar contraseña -->
     <div class="forgot-password">
       <a href="olvido-contrasena.html">¿Olvidó su contraseña?</a>
     </div>
   </div>
+  <!-- Script JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>
+
